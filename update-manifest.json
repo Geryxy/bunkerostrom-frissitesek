@@ -2,14 +2,14 @@
   "release": {
     "schema": 1,
     "product": "bunkerostrom",
-    "version": "1.9.1",
+    "version": "2.0.0",
     "minLauncherVersion": "1.8.0",
-    "file": "bunkerostrom-game-v1.9.1.html.gz",
-    "bytes": 2164515,
-    "sha256": "0addaab4f5937688813fdaa0305b5d5c23d6962fb855fd93d75ed700dcf98ec0",
-    "htmlBytes": 5523043,
-    "htmlSha256": "521d279c210752affff5128060b0c8a707dd9f12f225f56ee5a2b6198b5cd118",
-    "notes": "CS 1.6 alapú páncél és sisak, fegyverfüggő átütés; gépkarabély és sörétes együtt megtartható; 1 kés, 2 pisztoly, 3 gépkarabély, 4 sörétes és görgő; saját lőszer megőrzése."
+    "file": "bunkerostrom-game-v2.0.0.html.gz",
+    "bytes": 2204265,
+    "sha256": "0a07ff6a6f3cfb593289e030220bc421b5a0b6cb8ca4d9c4684ebd2d3837bbba",
+    "htmlBytes": 5653108,
+    "htmlSha256": "9c07828e3da4a08adcd26b84e80f202f3d3380ba780cef46a1d432b5d4a18508",
+    "notes": "CS 1.6 alapú 5v5: egy felvehető C4 és lerakási animáció, emberi CT/T botok, 24 lőfegyver, közös vásárlási és lőszerszabályok, gránátok, javított csapatmunka és körgazdaság. A modellek és hangok saját készítésűek."
   },
-  "signature": "Y7cDC5NTttwekO9yB/JWsHPd81zM4xQPXWLZnqB7HJ+uHF6oe90gvc40dtbuAoBoA9vQQM11zj3ImARrTruNCA=="
+  "signature": "Qil/VfuMNK0o/gPoSz1Zlu7l7FFemJ8AXUlqWAyojgURfneCLfP8E4tp3mbxr6KOfOkm+NsbTtgx3HueXKIhCg=="
 }
