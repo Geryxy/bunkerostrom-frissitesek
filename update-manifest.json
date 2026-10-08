@@ -2,14 +2,14 @@
   "release": {
     "schema": 1,
     "product": "bunkerostrom",
-    "version": "1.9.0",
+    "version": "1.9.1",
     "minLauncherVersion": "1.8.0",
-    "file": "bunkerostrom-game-v1.9.0.html.gz",
-    "bytes": 2162037,
-    "sha256": "829a8f724f25835fef2096d8bbde6b16a624db1b2bdda5327625da9fc734a6f7",
-    "htmlBytes": 5515712,
-    "htmlSha256": "d35efd09f13ba9ffefcccfe956a1796646fc85290c59ef175281f40b96b260f6",
-    "notes": "CT/T kezdopontok, csapatstrategia, bombaatvetel es 50%-os pancelvedelem javitva."
+    "file": "bunkerostrom-game-v1.9.1.html.gz",
+    "bytes": 2164515,
+    "sha256": "0addaab4f5937688813fdaa0305b5d5c23d6962fb855fd93d75ed700dcf98ec0",
+    "htmlBytes": 5523043,
+    "htmlSha256": "521d279c210752affff5128060b0c8a707dd9f12f225f56ee5a2b6198b5cd118",
+    "notes": "CS 1.6 alapú páncél és sisak, fegyverfüggő átütés; gépkarabély és sörétes együtt megtartható; 1 kés, 2 pisztoly, 3 gépkarabély, 4 sörétes és görgő; saját lőszer megőrzése."
   },
-  "signature": "UX+HXUVgynZwuqx4ugKX+oyHWGyzo7szy/ZCI4mTeu3Fyrwi63ihdw/neLdY0WF4wES51BYYxH/9hwkesQVtDg=="
+  "signature": "Y7cDC5NTttwekO9yB/JWsHPd81zM4xQPXWLZnqB7HJ+uHF6oe90gvc40dtbuAoBoA9vQQM11zj3ImARrTruNCA=="
 }
