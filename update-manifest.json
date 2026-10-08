@@ -2,14 +2,14 @@
   "release": {
     "schema": 1,
     "product": "bunkerostrom",
-    "version": "1.8.0",
+    "version": "1.9.0",
     "minLauncherVersion": "1.8.0",
-    "file": "bunkerostrom-game-v1.8.0.html.gz",
-    "bytes": 2159631,
-    "sha256": "02b7e213e8b35ce2d73982531c9e98f05fd871b5e02f4212e22a6a4e45a13635",
-    "htmlBytes": 5508603,
-    "htmlSha256": "bdbb73358173779eb2d34d5ea6fbafa6a7c62cbf0d19bd0f96626dffed964ce1",
-    "notes": "Indítóból telepíthető játékfrissítések; ajtó-, pályaütközés- és botjavítások."
+    "file": "bunkerostrom-game-v1.9.0.html.gz",
+    "bytes": 2162037,
+    "sha256": "829a8f724f25835fef2096d8bbde6b16a624db1b2bdda5327625da9fc734a6f7",
+    "htmlBytes": 5515712,
+    "htmlSha256": "d35efd09f13ba9ffefcccfe956a1796646fc85290c59ef175281f40b96b260f6",
+    "notes": "CT/T kezdopontok, csapatstrategia, bombaatvetel es 50%-os pancelvedelem javitva."
   },
-  "signature": "AdjX+slzzGIzchSgRqPgxElU2yleUAPxp949wUhLBXHJuJMzCZj/w/4CjdEHa/THHTQ14BhyH5iH0viurhKbCQ=="
+  "signature": "UX+HXUVgynZwuqx4ugKX+oyHWGyzo7szy/ZCI4mTeu3Fyrwi63ihdw/neLdY0WF4wES51BYYxH/9hwkesQVtDg=="
 }
