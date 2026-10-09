@@ -2,14 +2,14 @@
   "release": {
     "schema": 1,
     "product": "bunkerostrom",
-    "version": "2.0.0",
+    "version": "2.1.0",
     "minLauncherVersion": "1.8.0",
-    "file": "bunkerostrom-game-v2.0.0.html.gz",
-    "bytes": 2204265,
-    "sha256": "0a07ff6a6f3cfb593289e030220bc421b5a0b6cb8ca4d9c4684ebd2d3837bbba",
-    "htmlBytes": 5653108,
-    "htmlSha256": "9c07828e3da4a08adcd26b84e80f202f3d3380ba780cef46a1d432b5d4a18508",
-    "notes": "CS 1.6 alapú 5v5: egy felvehető C4 és lerakási animáció, emberi CT/T botok, 24 lőfegyver, közös vásárlási és lőszerszabályok, gránátok, javított csapatmunka és körgazdaság. A modellek és hangok saját készítésűek."
+    "file": "bunkerostrom-game-v2.1.0.html.gz",
+    "bytes": 11644080,
+    "sha256": "84109bd8f723f91b9540e249385488337776adbde164b6f37e6af35cc7e56da4",
+    "htmlBytes": 33262750,
+    "htmlSha256": "16c4860790d8edf570e5b39e98c76777091395c243f85724b76a1d70f86156a5",
+    "notes": "Eredeti CS 1.6 fegyvermodellek, textúrák, animációk és hangok a mellékelt csomagból; jobbkezes nézet, botok és eldobott fegyverek eredeti modelljei, javított animációléptetés."
   },
-  "signature": "Qil/VfuMNK0o/gPoSz1Zlu7l7FFemJ8AXUlqWAyojgURfneCLfP8E4tp3mbxr6KOfOkm+NsbTtgx3HueXKIhCg=="
+  "signature": "NU+YVw5Yw568Uh0qvPct2kegTbB9zUA3WruAD9ZG+HibTHzXyYadcajzpLOhsVpHT080WBBGE1Mv0jE1CxFKCA=="
 }
