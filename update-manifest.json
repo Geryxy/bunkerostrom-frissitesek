@@ -2,14 +2,14 @@
   "release": {
     "schema": 1,
     "product": "bunkerostrom",
-    "version": "2.1.0",
+    "version": "2.2.0",
     "minLauncherVersion": "1.8.0",
-    "file": "bunkerostrom-game-v2.1.0.html.gz",
-    "bytes": 11644080,
-    "sha256": "84109bd8f723f91b9540e249385488337776adbde164b6f37e6af35cc7e56da4",
-    "htmlBytes": 33262750,
-    "htmlSha256": "16c4860790d8edf570e5b39e98c76777091395c243f85724b76a1d70f86156a5",
-    "notes": "Eredeti CS 1.6 fegyvermodellek, textúrák, animációk és hangok a mellékelt csomagból; jobbkezes nézet, botok és eldobott fegyverek eredeti modelljei, javított animációléptetés."
+    "file": "bunkerostrom-game-v2.2.0.html.gz",
+    "bytes": 16834295,
+    "sha256": "17697142be34673d9c4980460b626bafe641c9dfe6253a472f826c13a8940bcf",
+    "htmlBytes": 48941323,
+    "htmlSha256": "83757c8ef41a3dc84020e40573261a5004ad638e760e22a67b97f19f4bd20bb0",
+    "notes": "Eredeti, csapatonként elkülönített CS 1.6 CT/T karakterek; változatos és szervezettebb T-támadások; stabilabb CT-útvonalak és elakadásjavítás; FPS nézőmódban látható fegyver; bal kattintással TPS és egérrel körülnézés."
   },
-  "signature": "NU+YVw5Yw568Uh0qvPct2kegTbB9zUA3WruAD9ZG+HibTHzXyYadcajzpLOhsVpHT080WBBGE1Mv0jE1CxFKCA=="
+  "signature": "imrxmkeDgc90/wQiAMnKiXjxKSzKXFptIc6EUMpY+miG89IJocqUbRYpgtUoDXuOxW1htX1XIDVYDXeojlnZBg=="
 }
