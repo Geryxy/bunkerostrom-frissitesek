@@ -2,14 +2,14 @@
   "release": {
     "schema": 1,
     "product": "bunkerostrom",
-    "version": "2.2.0",
+    "version": "2.2.1",
     "minLauncherVersion": "1.8.0",
-    "file": "bunkerostrom-game-v2.2.0.html.gz",
-    "bytes": 16834295,
-    "sha256": "17697142be34673d9c4980460b626bafe641c9dfe6253a472f826c13a8940bcf",
-    "htmlBytes": 48941323,
-    "htmlSha256": "83757c8ef41a3dc84020e40573261a5004ad638e760e22a67b97f19f4bd20bb0",
-    "notes": "Eredeti, csapatonként elkülönített CS 1.6 CT/T karakterek; változatos és szervezettebb T-támadások; stabilabb CT-útvonalak és elakadásjavítás; FPS nézőmódban látható fegyver; bal kattintással TPS és egérrel körülnézés."
+    "file": "bunkerostrom-game-v2.2.1.html.gz",
+    "bytes": 16837830,
+    "sha256": "48563067712f6b1c2c6278a50cbdd7121d67be45759359fe8b2fcd604db6eb74",
+    "htmlBytes": 48954004,
+    "htmlSha256": "1dd7c224d7ac7b8db5cfd6a59580a5e0e809424ab3ffb09a801352dce5f044c4",
+    "notes": "Aktív CT területellenőrzés, páros keresés, változó fedezékek; javított harci mozgás és elakadáskezelés; vakítás és utolsó látott pozíció kezelése."
   },
-  "signature": "imrxmkeDgc90/wQiAMnKiXjxKSzKXFptIc6EUMpY+miG89IJocqUbRYpgtUoDXuOxW1htX1XIDVYDXeojlnZBg=="
+  "signature": "voMjW+k+etaFxlDDCp64EPdkr4DCj4zlylUgZLRyKJLh6wCJ2uXH8/nd3xnSJXAsxIj3Qp/ZRtB2auEcpc6uBA=="
 }
