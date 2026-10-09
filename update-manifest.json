@@ -2,14 +2,14 @@
   "release": {
     "schema": 1,
     "product": "bunkerostrom",
-    "version": "2.3.0",
+    "version": "2.3.1",
     "minLauncherVersion": "1.8.0",
-    "file": "bunkerostrom-game-v2.3.0.html.gz",
-    "bytes": 16851438,
-    "sha256": "42fa0f25036f79950845824d4eeae8bcec69551afde2b236eb0da57e5fa84264",
-    "htmlBytes": 48997740,
-    "htmlSha256": "081e6236a22fa1412373787e82e178625494d4f07c2cc60e36a1994f33017cd6",
-    "notes": "YaPB-alapú AI: látómező, hallás, fokozatos 3D-célzás, csapatban végzett keresés, elérhető fedezék, veszélykerülés és időkritikus bombafeladatok."
+    "file": "bunkerostrom-game-v2.3.1.html.gz",
+    "bytes": 16854738,
+    "sha256": "f09c47c0d94f8d30b856f62970ce4ee72c1dad78dd2a89204115fb41186419e9",
+    "htmlBytes": 49010299,
+    "htmlSha256": "35a0a95fe8e7001ab6597006be58540ce76c9d6fc0c0d9c9050007b419acd5c9",
+    "notes": "Lépcsőzés ugrás nélkül; a rámpán átesés és a botmagasság felülírásának javítása; aktív CT-visszafoglalás és elakadt hatástalanító cseréje."
   },
-  "signature": "b7rQzQggVSG2seJ8ed3NXeHStFEGX2jgmocup97H7lxIvaFwT7h6yWATcRW4rTRbuAgMLxWfIBKJ+9mXm3bcBA=="
+  "signature": "LGDDXKn4ObwF3Ly5SGIf7L9nVBZNrDyTKDKooo93CZK0w8DbZYGezhHZ5g6bQRj4XKFWJLQcQwhKMnLwq2tZCA=="
 }
