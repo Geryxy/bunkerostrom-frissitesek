@@ -1,9 +1,9 @@
 {
-  "version": "2.5.0",
-  "file": "bunkerostrom-game-v2.5.0.html.gz",
-  "bytes": 17025124,
-  "sha256": "c190d39bb8f69b3981cda5ef9d9a9914c641925ade25515100949efe0a6ae0b6",
-  "htmlBytes": 49046301,
-  "htmlSha256": "5ef3672d6021675b88685bd26976a419508b8dec92a49f27ed425cb0e29965d0",
-  "notes": "Valódi felvételekből készült, CC0 licencű fegyverhangok (lövés, tárcsere, závár, pumpa) mindkét játékmódban."
+  "version": "2.6.0",
+  "file": "bunkerostrom-game-v2.6.0.html.gz",
+  "bytes": 17033821,
+  "sha256": "ab4d5072960ee561fd5d2166292801767e153f748bb1fd3684d4162127bf9835",
+  "htmlBytes": 49079801,
+  "htmlSha256": "50868087b9e75193c763c85155563c0613ae5cf2d839d8847a0c16b37eaad4b7",
+  "notes": "Választható pályák a hullámmódban: Bunker, Belváros (nappal), Kikötő (alkonyat), Erdei tábor (éjszaka)."
 }
