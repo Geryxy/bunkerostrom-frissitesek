@@ -35,6 +35,18 @@ Másold be az új `bunkerostrom-game-vX.Y.Z.html.gz` fájlt, és írd át a `web
 `file`, `version` és `bytes` mezőjét. Ha a `web-manifest.json` hiányzik, a weboldal az
 `update-manifest.json` kiadását tölti be.
 
-A 2.4.0-s csomag (részletesebb fegyver- és robotmodellek, érintéses irányítás) egyelőre csak a
-webes jegyzékben szerepel: az `update-manifest.json` aláírt, ezért a Windows-indítónak szóló
+A 2.4.0-s (részletesebb fegyver- és robotmodellek, érintéses irányítás) és a 2.5.0-s csomag
+(új fegyverhangok) egyelőre csak a webes jegyzékben szerepel: az `update-manifest.json` aláírt, ezért a Windows-indítónak szóló
 kiadáshoz azt a saját kulccsal kell újra aláírni.
+
+## Hangok forrása
+
+A 2.5.0-tól a lövések, a tárcsere, a závár, a pumpa és a töltény hangja szabadon
+felhasználható (CC0) felvételekből készül:
+
+- [The Free Firearm Sound Library](https://opengameart.org/content/the-free-firearm-sound-library) – lövések
+- [gun reload sounds](https://opengameart.org/content/gun-reload-sounds) (SpringySpringo) – tárcsere, závár, pumpa
+- [gun reload sound effects](https://opengameart.org/content/gun-reload-sound-effects) (BMacZero) – tár, töltény
+
+Több fegyver ugyanazt a felvételt használja eltérő lejátszási sebességgel; a hangtompítós
+lövések a nyílt felvételek szűrt változatai.

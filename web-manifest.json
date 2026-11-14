@@ -1,9 +1,9 @@
 {
-  "version": "2.4.0",
-  "file": "bunkerostrom-game-v2.4.0.html.gz",
-  "bytes": 16928934,
-  "sha256": "2eb276113ddaa0fac3e4dd7e97dbbe55ce6fb375e44851cb2732265b91be660b",
-  "htmlBytes": 49073151,
-  "htmlSha256": "0c12daba5b7c4588ce94c1139a222420c4bde23e537bb742aecf406d6e7e6479",
-  "notes": "Részletesebb fegyver- és robotmodellek a hullámmódban; érintéses irányítás és telefonos (iPhone) megjelenítés."
+  "version": "2.5.0",
+  "file": "bunkerostrom-game-v2.5.0.html.gz",
+  "bytes": 17025124,
+  "sha256": "c190d39bb8f69b3981cda5ef9d9a9914c641925ade25515100949efe0a6ae0b6",
+  "htmlBytes": 49046301,
+  "htmlSha256": "5ef3672d6021675b88685bd26976a419508b8dec92a49f27ed425cb0e29965d0",
+  "notes": "Valódi felvételekből készült, CC0 licencű fegyverhangok (lövés, tárcsere, závár, pumpa) mindkét játékmódban."
 }
