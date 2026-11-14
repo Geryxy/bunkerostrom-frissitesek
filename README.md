@@ -36,7 +36,8 @@ Másold be az új `bunkerostrom-game-vX.Y.Z.html.gz` fájlt, és írd át a `web
 `update-manifest.json` kiadását tölti be.
 
 A 2.4.0-s (részletesebb fegyver- és robotmodellek, érintéses irányítás), a 2.5.0-s (új
-fegyverhangok) és a 2.6.0-s csomag (választható pályák) egyelőre csak a webes jegyzékben szerepel: az `update-manifest.json` aláírt, ezért a Windows-indítónak szóló
+fegyverhangok), a 2.6.0-s (választható pályák) és a 2.7.0-s csomag (pályánkénti hangulat) egyelőre
+csak a webes jegyzékben szerepel: az `update-manifest.json` aláírt, ezért a Windows-indítónak szóló
 kiadáshoz azt a saját kulccsal kell újra aláírni.
 
 ## Hangok forrása

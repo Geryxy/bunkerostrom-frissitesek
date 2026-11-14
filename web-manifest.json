@@ -1,9 +1,9 @@
 {
-  "version": "2.6.0",
-  "file": "bunkerostrom-game-v2.6.0.html.gz",
-  "bytes": 17033821,
-  "sha256": "ab4d5072960ee561fd5d2166292801767e153f748bb1fd3684d4162127bf9835",
-  "htmlBytes": 49079801,
-  "htmlSha256": "50868087b9e75193c763c85155563c0613ae5cf2d839d8847a0c16b37eaad4b7",
-  "notes": "Választható pályák a hullámmódban: Bunker, Belváros (nappal), Kikötő (alkonyat), Erdei tábor (éjszaka)."
+  "version": "2.7.0",
+  "file": "bunkerostrom-game-v2.7.0.html.gz",
+  "bytes": 17037556,
+  "sha256": "8dbf9dd4624187427904fb57a4233508b8532350a1616fe80954ff9488b6f9a8",
+  "htmlBytes": 49092376,
+  "htmlSha256": "a93d12a61877631c0b46fb4ac61dbf0937c5791c5cedcad33d4e9c729268185c",
+  "notes": "Pályánként eltérő hangulat: háttérzajok, visszhang és lépéshangok a pálya és a talaj szerint."
 }
