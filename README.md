@@ -42,12 +42,10 @@ kiadáshoz azt a saját kulccsal kell újra aláírni.
 
 ## Hangok forrása
 
-A 2.5.0-tól a lövések, a tárcsere, a závár, a pumpa és a töltény hangja szabadon
-felhasználható (CC0) felvételekből készül:
+A hullámmódban a lövések, a tárcsere, a závár, a pumpa és a töltény hangja szabadon
+felhasználható (CC0) felvételekből készül (a bombás mód a saját, eredeti hangjait használja):
 
 - [The Free Firearm Sound Library](https://opengameart.org/content/the-free-firearm-sound-library) – lövések
 - [gun reload sounds](https://opengameart.org/content/gun-reload-sounds) (SpringySpringo) – tárcsere, závár, pumpa
 - [gun reload sound effects](https://opengameart.org/content/gun-reload-sound-effects) (BMacZero) – tár, töltény
 
-Több fegyver ugyanazt a felvételt használja eltérő lejátszási sebességgel; a hangtompítós
-lövések a nyílt felvételek szűrt változatai.

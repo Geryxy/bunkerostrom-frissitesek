@@ -1,9 +1,9 @@
 {
-  "version": "2.8.0",
-  "file": "bunkerostrom-game-v2.8.0.html.gz",
-  "bytes": 17039645,
-  "sha256": "56e900257167f045854343d782eed3c67fe53b60c5bb5df2fe7458ce5b3a7c27",
-  "htmlBytes": 49098725,
-  "htmlSha256": "1d1d7ac406813c23b2c5672aa170ad83eb038196933e090ed8ebb85baba30e5d",
-  "notes": "Lobogó tábortűz szikrákkal és pislákoló fénnyel; a tűz megégeti a játékost és az ellenfeleket."
+  "version": "2.8.1",
+  "file": "bunkerostrom-game-v2.8.1.html.gz",
+  "bytes": 17376349,
+  "sha256": "0a9d4c066fa3afd186ee7bde64ea769d45da6ce0d2f26d729302bbe0f7c1590d",
+  "htmlBytes": 49843225,
+  "htmlSha256": "0521e31d8c26768d0c5abad77d559e97757d4b3c5f73d00ccc2c656ad5ece15b",
+  "notes": "A bombás mód visszakapta az eredeti fegyverhangjait; az új felvételek csak a hullámmódban szólnak."
 }
