@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Bunkerostrom">
+  <meta name="theme-color" content="#07080a">
+  <title>Bunkerostrom</title>
+  <link rel="icon" href="data:,">
+  <style>
+    html, body { margin: 0; height: 100%; background: #07080a; color: #e9e6dc; font-family: 'Arial Narrow', Arial, sans-serif; }
+    body { display: grid; place-items: center; text-align: center; }
+    h1 { margin: 0 0 14px; font-size: 40px; letter-spacing: 5px; }
+    h1 span { color: #ffb23f; }
+    #bar { width: min(320px, 70vw); height: 8px; margin: 0 auto 12px; background: #1c1d20; border: 1px solid rgba(255, 178, 63, .35); }
+    #fill { height: 100%; width: 0; background: #ffb23f; }
+    #msg { color: #9a978d; font-size: 15px; white-space: pre-wrap; padding: 0 16px; }
+  </style>
+</head>
+<body>
+  <div>
+    <h1>BUNKER<span>OSTROM</span></h1>
+    <div id="bar"><div id="fill"></div></div>
+    <div id="msg">Letöltés…</div>
+  </div>
+  <script>
+    // Web launcher: downloads the compressed game build, unpacks it in the
+    // browser and replaces this page with it. Serve this folder over HTTP(S)
+    // (GitHub Pages or any static server) and open it on a phone or a PC.
+    (async function () {
+      var msg = document.getElementById('msg'), fill = document.getElementById('fill');
+      function fail(text) { msg.textContent = text; msg.style.color = '#ff4a3d'; }
+      try {
+        if (typeof DecompressionStream !== 'function') {
+          return fail('Ez a böngésző túl régi a játék kicsomagolásához.\nFrissítsd az iOS-t (16.4 vagy újabb) vagy a böngészőt.');
+        }
+        async function json(name) {
+          var r = await fetch(name, { cache: 'no-cache' });
+          if (!r.ok) throw new Error(name + ': HTTP ' + r.status);
+          return r.json();
+        }
+        // web-manifest.json names the build to serve; without it the web
+        // version follows the desktop launcher's release.
+        var info;
+        try { info = await json('web-manifest.json'); } catch (e) { info = (await json('update-manifest.json')).release; }
+        if (!/^[\w.-]+\.html\.gz$/.test(info.file)) throw new Error('Érvénytelen fájlnév a jegyzékben.');
+        var response = await fetch(info.file);
+        if (!response.ok) throw new Error(info.file + ': HTTP ' + response.status);
+        var total = info.bytes || Number(response.headers.get('Content-Length')) || 0, loaded = 0;
+        var counted = response.body.pipeThrough(new TransformStream({
+          transform: function (chunk, controller) {
+            loaded += chunk.byteLength;
+            if (total) fill.style.width = Math.min(100, loaded / total * 100) + '%';
+            msg.textContent = 'Letöltés… ' + (loaded / 1048576).toFixed(1) + (total ? ' / ' + (total / 1048576).toFixed(1) : '') + ' MB';
+            controller.enqueue(chunk);
+          }
+        }));
+        var reader = counted.pipeThrough(new DecompressionStream('gzip')).getReader();
+        var decoder = new TextDecoder('utf-8'), parts = [];
+        for (;;) {
+          var step = await reader.read();
+          if (step.done) break;
+          parts.push(decoder.decode(step.value, { stream: true }));
+        }
+        parts.push(decoder.decode());
+        msg.textContent = 'Indítás…';
+        await new Promise(function (r) { setTimeout(r, 30); });
+        document.open();
+        for (var i = 0; i < parts.length; i++) { document.write(parts[i]); parts[i] = ''; }
+        document.close();
+      } catch (err) {
+        fail('A játék letöltése nem sikerült:\n' + (err && err.message || err) + '\n\nEllenőrizd a kapcsolatot, majd töltsd újra az oldalt.');
+      }
+    })();
+  </script>
+</body>
+</html>
